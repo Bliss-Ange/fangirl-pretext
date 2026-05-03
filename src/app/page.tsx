@@ -6,11 +6,10 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Paper from "@mui/material/Paper";
 import { prepareWithSegments, layoutNextLine, type LayoutCursor } from "@chenglou/pretext";
-import { SAMPLE_TEXT } from "./content";
+import { SAMPLE_TEXT, PAGE_CONFIG } from "./content";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const DEFAULT_IMAGE =
-  "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_de_EXO.png";
+const DEFAULT_IMAGE = PAGE_CONFIG.defaultImage;
 
 const CANVAS_W    = 836;
 const CANVAS_H    = 720;
@@ -122,7 +121,7 @@ export default function Home() {
     ctx.textBaseline = "top";
     ctx.textAlign = "center";
     ctx.letterSpacing = "2px";
-    ctx.fillText("ARTIST  ·  PROFILE", CANVAS_W / 2, 14);
+    ctx.fillText(PAGE_CONFIG.canvasLabel, CANVAS_W / 2, 14);
     ctx.restore();
 
     // Body text
@@ -217,10 +216,10 @@ export default function Home() {
           fontWeight: 700, fontSize: "1.05rem", letterSpacing: "0.18em",
           textTransform: "uppercase", color: ACCENT,
         }}>
-          BAEKHYUN
+          {PAGE_CONFIG.navBrand}
         </Typography>
         <Box sx={{ display: "flex", gap: 4 }}>
-          {["PROFILE", "DISCOGRAPHY", "SCHEDULE", "NOTICE"].map(item => (
+          {PAGE_CONFIG.navLinks.map(item => (
             <Typography key={item} sx={{
               fontSize: "0.72rem", letterSpacing: "0.14em",
               textTransform: "uppercase", color: "rgba(255,255,255,0.5)",
@@ -246,7 +245,7 @@ export default function Home() {
           textTransform: "uppercase", color: "rgba(255,255,255,0.35)",
           mb: 1.5,
         }}>
-          Artist · Profile
+          {PAGE_CONFIG.heroLabel}
         </Typography>
         <Typography sx={{
           fontSize: { xs: "2rem", md: "3rem" },
@@ -256,13 +255,13 @@ export default function Home() {
           lineHeight: 1,
           color: ACCENT,
         }}>
-          Byun Baek-hyun
+          {PAGE_CONFIG.heroTitle}
         </Typography>
         <Typography sx={{
           fontSize: "0.8rem", color: "rgba(255,255,255,0.4)",
           letterSpacing: "0.1em", mt: 1,
         }}>
-          B. MAY 6, 1992 · BUCHEON, SOUTH KOREA · VOCALIST
+          {PAGE_CONFIG.heroSubtitle}
         </Typography>
       </Box>
 
@@ -316,7 +315,7 @@ export default function Home() {
           color: "rgba(255,255,255,0.2)", textAlign: "right",
           textTransform: "uppercase",
         }}>
-          Drag image to reflow text
+          {PAGE_CONFIG.canvasHint}
         </Typography>
       </Box>
 
@@ -327,10 +326,10 @@ export default function Home() {
         display: "flex", justifyContent: "space-between", alignItems: "center",
       }}>
         <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
-          © 2026 Baekhyun. All Rights Reserved.
+          {PAGE_CONFIG.footerLeft}
         </Typography>
         <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
-          Powered by Pretext · Next.js · MUI
+          {PAGE_CONFIG.footerRight}
         </Typography>
       </Box>
     </Box>

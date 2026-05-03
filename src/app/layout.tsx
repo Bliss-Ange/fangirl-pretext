@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Baekhyun",
-  description: "Byun Baek-hyun — Artist Profile",
+  title: "Angelyn",
+  description: "Angelyn — Developer Fangirl Profile",
   icons: {
     icon: "/img/kkuruJam.jpg",
   },
