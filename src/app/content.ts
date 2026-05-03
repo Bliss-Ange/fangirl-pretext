@@ -3,20 +3,20 @@
 
 export const PAGE_CONFIG = {
   // ── Navigation ──────────────────────────────────────────────────────────────
-  navBrand: "Angelyn",
+  navBrand: "Baekhyun",
   navLinks: ["PROFILE", "DISCOGRAPHY", "SCHEDULE", "NOTICE"],
 
   // ── Hero strip ──────────────────────────────────────────────────────────────
-  heroLabel:    "PERSON · Profile",
-  heroTitle:    "Angelyn",
-  heroSubtitle: "13 YEARS FANGIRL · KUALA LUMPUR, MALAYSIA · CORPORATE GIRLIE",
+  heroLabel:    "ARTIST · Profile",
+  heroTitle:    "Baekhyun",
+  heroSubtitle: "BYUN BAEK-HYUN · BUCHEON, SOUTH KOREA · EXO · SOLO ARTIST",
 
   // ── Canvas ───────────────────────────────────────────────────────────────────
-  canvasLabel: "PERSON  ·  PROFILE",
+  canvasLabel: "ARTIST  ·  PROFILE",
   canvasHint:  "Drag image to reflow text",
 
   // ── Default image ────────────────────────────────────────────────────────────
-  defaultImage: "https://yt3.googleusercontent.com/ytc/AIdro_mdYsPq9xTJNHuSFqnea2IVydD_TwWf6JGtRvb_3S9U718=s900-c-k-c0x00ffffff-no-rj",
+  defaultImage: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_de_EXO.png",
 
   // ── Footer ───────────────────────────────────────────────────────────────────
   footerLeft:       "© 2026 Angelyn. All Rights Reserved.",
