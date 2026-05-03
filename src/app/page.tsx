@@ -26,8 +26,8 @@ const TEXT_GAP    = 12;
 
 // ─── Palette ─────────────────────────────────────────────────────────────────
 const BG       = "#0a0a0a";   // near-black canvas background
-const TEXT_CLR = "#e8e8e8";   // off-white body text
-const DIVIDER  = "#2a2a2a";   // subtle dark divider
+const TEXT_CLR = "#cccccc";   // light grey body text
+const DIVIDER  = "#1a1a1a";   // subtle divider
 const ACCENT   = "#ffffff";   // pure white accent
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -209,23 +209,23 @@ export default function Home() {
       {/* Nav bar */}
       <Box component="nav" sx={{
         display: "flex", justifyContent: "space-between", alignItems: "center",
-        px: 5, py: 2.5,
-        borderBottom: "1px solid #1c1c1c",
+        px: 6, py: 3,
+        borderBottom: "1px solid rgba(255,255,255,0.07)",
       }}>
         <Typography sx={{
-          fontWeight: 700, fontSize: "1.05rem", letterSpacing: "0.18em",
+          fontWeight: 400, fontSize: "0.8rem", letterSpacing: "0.28em",
           textTransform: "uppercase", color: ACCENT,
         }}>
           {PAGE_CONFIG.navBrand}
         </Typography>
-        <Box sx={{ display: "flex", gap: 4 }}>
+        <Box sx={{ display: "flex", gap: 5 }}>
           {PAGE_CONFIG.navLinks.map(item => (
             <Typography key={item} sx={{
-              fontSize: "0.72rem", letterSpacing: "0.14em",
-              textTransform: "uppercase", color: "rgba(255,255,255,0.5)",
+              fontSize: "0.65rem", letterSpacing: "0.18em",
+              textTransform: "uppercase", color: "rgba(255,255,255,0.4)",
               cursor: "pointer",
               "&:hover": { color: "#fff" },
-              transition: "color 0.2s",
+              transition: "color 0.25s",
             }}>
               {item}
             </Typography>
@@ -235,31 +235,32 @@ export default function Home() {
 
       {/* Hero strip */}
       <Box sx={{
-        px: 5, pt: 6, pb: 4,
-        borderBottom: "1px solid #1c1c1c",
+        px: 6, pt: 12, pb: 10,
+        borderBottom: "1px solid rgba(255,255,255,0.07)",
         display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
         textAlign: "center",
       }}>
         <Typography sx={{
-          fontSize: "0.68rem", letterSpacing: "0.22em",
-          textTransform: "uppercase", color: "rgba(255,255,255,0.35)",
-          mb: 1.5,
+          fontSize: "0.6rem", letterSpacing: "0.3em",
+          textTransform: "uppercase", color: "rgba(255,255,255,0.25)",
+          mb: 3,
         }}>
           {PAGE_CONFIG.heroLabel}
         </Typography>
         <Typography sx={{
-          fontSize: { xs: "2rem", md: "3rem" },
-          fontWeight: 800,
-          letterSpacing: "-0.02em",
+          fontSize: { xs: "3.5rem", md: "6rem" },
+          fontWeight: 300,
+          letterSpacing: "0.18em",
           textTransform: "uppercase",
           lineHeight: 1,
           color: ACCENT,
         }}>
           {PAGE_CONFIG.heroTitle}
         </Typography>
+        <Box sx={{ width: 40, height: "1px", background: "rgba(255,255,255,0.2)", my: 3 }} />
         <Typography sx={{
-          fontSize: "0.8rem", color: "rgba(255,255,255,0.4)",
-          letterSpacing: "0.1em", mt: 1,
+          fontSize: "0.65rem", color: "rgba(255,255,255,0.35)",
+          letterSpacing: "0.2em",
         }}>
           {PAGE_CONFIG.heroSubtitle}
         </Typography>
@@ -294,7 +295,7 @@ export default function Home() {
         {/* Canvas */}
         <Paper elevation={0} sx={{
           background: "transparent",
-          border: "1px solid #1c1c1c",
+          border: "1px solid rgba(255,255,255,0.07)",
           borderRadius: 0,
           overflow: "hidden",
         }}>
@@ -321,8 +322,8 @@ export default function Home() {
 
       {/* Footer */}
       <Box sx={{
-        borderTop: "1px solid #1c1c1c",
-        px: 5, py: 3,
+        borderTop: "1px solid rgba(255,255,255,0.07)",
+        px: 6, py: 4,
         display: "flex", justifyContent: "space-between", alignItems: "center",
       }}>
         <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
