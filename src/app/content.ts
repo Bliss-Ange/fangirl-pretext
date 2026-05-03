@@ -16,7 +16,7 @@ export const PAGE_CONFIG = {
   canvasHint:  "Drag image to reflow text",
 
   // ── Default image ────────────────────────────────────────────────────────────
-  defaultImage: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_de_EXO.png",
+  defaultImage: "/img/BAEK.jpeg",
 
   // ── Footer ───────────────────────────────────────────────────────────────────
   footerLeft:       "© 2026 Angelyn. All Rights Reserved.",
