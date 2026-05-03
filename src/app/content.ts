@@ -19,8 +19,10 @@ export const PAGE_CONFIG = {
   defaultImage: "https://yt3.googleusercontent.com/ytc/AIdro_mdYsPq9xTJNHuSFqnea2IVydD_TwWf6JGtRvb_3S9U718=s900-c-k-c0x00ffffff-no-rj",
 
   // ── Footer ───────────────────────────────────────────────────────────────────
-  footerLeft:  "© 2026 Angelyn. All Rights Reserved.",
-  footerRight: "Powered by Pretext · Next.js · MUI",
+  footerLeft:       "© 2026 Angelyn. All Rights Reserved.",
+  footerRight:      "Powered by Next.js · MUI",
+  footerCreditText: "Text flow by Pretext",
+  footerCreditUrl:  "https://github.com/chenglou/pretext",
 };
 
 // ─── Sample Text Content ──────────────────────────────────────────────────────

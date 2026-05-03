@@ -328,9 +328,26 @@ export default function Home() {
         <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
           {PAGE_CONFIG.footerLeft}
         </Typography>
-        <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
-          {PAGE_CONFIG.footerRight}
-        </Typography>
+        <Box sx={{ display: "flex", gap: 3, alignItems: "center" }}>
+          <Typography sx={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "rgba(255,255,255,0.2)", textTransform: "uppercase" }}>
+            {PAGE_CONFIG.footerRight}
+          </Typography>
+          <Typography
+            component="a"
+            href={PAGE_CONFIG.footerCreditUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              fontSize: "0.65rem", letterSpacing: "0.12em",
+              color: "rgba(255,255,255,0.35)", textTransform: "uppercase",
+              textDecoration: "none",
+              "&:hover": { color: "#fff", textDecoration: "underline" },
+              transition: "color 0.2s",
+            }}
+          >
+            {PAGE_CONFIG.footerCreditText}
+          </Typography>
+        </Box>
       </Box>
     </Box>
   );
