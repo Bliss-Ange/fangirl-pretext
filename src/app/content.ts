@@ -3,20 +3,20 @@
 
 export const PAGE_CONFIG = {
   // ── Navigation ──────────────────────────────────────────────────────────────
-  navBrand: "Angelyn",
+  navBrand: "Baekhyun",
   navLinks: ["PROFILE", "DISCOGRAPHY", "SCHEDULE", "NOTICE"],
 
   // ── Hero strip ──────────────────────────────────────────────────────────────
-  heroLabel:    "PERSON · Profile",
-  heroTitle:    "Angelyn",
-  heroSubtitle: "13 YEARS FANGIRL · KUALA LUMPUR, MALAYSIA · CORPORATE GIRLIE",
+  heroLabel:    "ARTIST · Profile",
+  heroTitle:    "Baekhyun",
+  heroSubtitle: "BYUN BAEK-HYUN · BUCHEON, SOUTH KOREA · EXO · SOLO ARTIST",
 
   // ── Canvas ───────────────────────────────────────────────────────────────────
-  canvasLabel: "PERSON  ·  PROFILE",
+  canvasLabel: "ARTIST  ·  PROFILE",
   canvasHint:  "Drag image to reflow text",
 
   // ── Default image ────────────────────────────────────────────────────────────
-  defaultImage: "https://yt3.googleusercontent.com/ytc/AIdro_mdYsPq9xTJNHuSFqnea2IVydD_TwWf6JGtRvb_3S9U718=s900-c-k-c0x00ffffff-no-rj",
+  defaultImage: "/img/BAEK.jpeg",
 
   // ── Footer ───────────────────────────────────────────────────────────────────
   footerLeft:       "© 2026 Angelyn. All Rights Reserved.",
@@ -29,54 +29,76 @@ export const PAGE_CONFIG = {
 // Edit SAMPLE_TEXT below to change the article body.
 
 export const SAMPLE_TEXT =
-  "KUALA LUMPUR — In an industry that has long demanded its workers leave their personal lives at the door, " +
-  "one software engineer is making the case that the boardroom and the fandom floor are not so different after all. " +
-  "Angelyn, the corporate frontend developer and self-described K-pop fangirl behind the Instagram account @angelyn.println, " +
-  "has emerged as an unlikely voice for a generation of professional women " +
-  "who refuse to compartmentalise who they are. " +
+  "SEOUL — Born on the sixth of May, 1992, in the city of Bucheon, South Korea, " +
+  "Byun Baek-hyun has risen from a soft-spoken boy with a gift for melody " +
+  "to one of the most celebrated vocal talents of his generation. " +
+  "Known to the world simply as Baekhyun, the artist first captured public attention " +
+  "when he debuted as a member of the internationally acclaimed K-pop group EXO " +
+  "under SM Entertainment in April 2012. " +
+  "From his very first note on stage, critics and audiences alike took notice " +
+  "of a voice that carried both power and precision in equal measure. " +
+  "His tenor range, marked by a striking falsetto and a warm mid-register, " +
+  "set him apart in a crowded and competitive industry. " +
 
-  "A First Class graduate in Software Engineering, Angelyn brings considerable technical credentials to her day job. " +
-  "She specialises in frontend development using Next.js and builds backend systems in Python, " +
-  "with applied experience in Microsoft Azure — including the Azure Face API, " +
-  "which she has deployed in production-grade computer vision applications. " +
-  "She holds three Microsoft certifications: the AZ-104 Azure Administrator, " +
-  "the AI-900 Azure AI Fundamentals, and the Azure Developer Associate, " +
-  "placing her among a relatively small cohort of developers " +
-  "with both the academic foundations and the certified cloud expertise " +
-  "to operate at the intersection of software engineering and artificial intelligence. " +
+  "Growing up in Bucheon, a city nestled on the outskirts of the greater Seoul metropolitan area, " +
+  "Baekhyun was known among childhood friends as a boy who hummed constantly — " +
+  "in hallways, during meals, and late into the night. " +
+  "His parents, recognising the unusual depth of his musical sensitivity, " +
+  "enrolled him in vocal lessons at an early age. " +
+  "He would later credit those formative years of classical training " +
+  "with giving him the technical foundation that would sustain a decade-long career " +
+  "under the relentless demands of the entertainment industry. " +
+  "By the time he auditioned for SM Entertainment as a teenager, " +
+  "his voice had already developed a maturity that belied his years. " +
+  "Trainers at the label reportedly recognised immediately that they had encountered " +
+  "something rare — a natural instrument refined by discipline and passion alike. " +
 
-  "Asked about the rapid advance of AI in the industry, Angelyn does not hesitate. " +
-  "\"I am not afraid of it,\" she has told everyone. " +
-  "\"I want to be the one building with it.\" " +
-  "That posture — bold, forward-leaning, unintimidated by disruption — " +
-  "has become as much a part of her public identity as the fandom content that first drew audiences to her page. " +
+  "Over the years, Baekhyun has proven himself far more than a performer — " +
+  "he is a complete artist. In 2019, he made his highly anticipated solo debut " +
+  "with the extended play 'City Lights,' which sold over one million copies " +
+  "within a matter of days, making him the first Korean solo artist " +
+  "to achieve such a milestone in the Hanteo chart's history. " +
+  "The record was a statement: Baekhyun had arrived on his own terms. " +
+  "His second solo release, 'Delight,' followed in 2020 and broke his own record, " +
+  "further cementing his standing as a solo powerhouse. " +
+  "The title track 'Candy' became an instant earworm across streaming platforms, " +
+  "topping charts in South Korea, Japan, and several Southeast Asian markets simultaneously. " +
 
-  "Angelyn has been a devoted fan of K-pop artist Baekhyun, " +
-  "a solo performer and member of the internationally acclaimed group EXO, for nearly thirteen years. " +
-  "She is equally devoted to Pooh and Pavel, known to fans as PoohPavel, " +
-  "whose music she has followed with comparable loyalty. " +
-  "For much of that time, her fandom was, by her own account, a private affair — " +
-  "kept separate from the professional identity she was carefully building. " +
+  "In 2021, Baekhyun released 'Bambi,' a project widely regarded by critics " +
+  "as his most emotionally mature work to date. " +
+  "The album explored themes of longing, memory, and transformation " +
+  "through a palette of R&B-inflected pop, lush orchestration, and intimate balladry. " +
+  "Music journalists praised his vocal control on the record, " +
+  "noting that he had mastered the rare ability to convey vulnerability " +
+  "without sacrificing technical precision. " +
+  "International fans flooded social media with translations and reactions, " +
+  "and the album performed strongly even in markets where Korean-language music " +
+  "had only recently begun to gain mainstream traction. " +
 
-  "That changed in January 2026, when Angelyn attended her first live concert. " +
-  "The event, which she has described as a defining personal milestone, " +
-  "prompted a period of reflection that would ultimately reshape her approach to her public presence. " +
-  "Within weeks, @angelyn.println had evolved from a personal account " +
-  "into a platform with a clear and deliberate purpose. " +
+  "Beyond music, Baekhyun has demonstrated an ease in front of the camera, " +
+  "appearing in television dramas and variety programmes that revealed " +
+  "a natural charm and wit rarely found in artists of his calibre. " +
+  "Colleagues describe him as a perfectionist with a generous spirit — " +
+  "one who rehearses long after others have retired for the evening, " +
+  "yet never fails to lift the mood in a room. " +
+  "His group members within EXO have spoken publicly about his role " +
+  "as an anchor of warmth and humour during the physically gruelling years " +
+  "of back-to-back world tours and relentless promotional schedules. " +
 
-  "The account now serves as a space where Angelyn documents both her professional life and her fandom, " +
-  "without apology and without the artificial separation she once imposed between them. " +
-  "The response from followers has been significant. " +
-  "Women working across technology, finance, law, and medicine have written to say " +
-  "that her content gave them permission to stop treating their love of K-pop " +
-  "as something to be hidden from colleagues and kept out of professional conversation. " +
+  "Fans across Asia, Europe, and the Americas have followed his journey " +
+  "with devoted enthusiasm, filling arenas wherever he performs. " +
+  "The community known as EXO-L — one of the most organised and passionate " +
+  "fandoms in contemporary pop culture — has long regarded Baekhyun " +
+  "as both a beloved figure and an artistic standard-bearer. " +
+  "Their support has funded charitable campaigns, literacy programmes, " +
+  "and environmental initiatives in his name, a testament to the kind of artist " +
+  "he has inspired people to become. " +
 
-  "\"I thought I was the only one,\" reads one frequently cited comment beneath her posts. " +
-  "It is a sentiment, Angelyn says, that she understands completely — " +
-  "and one she is determined to make obsolete. " +
-  "Her message is unambiguous: a woman can hold a First Class degree, " +
-  "earn cloud certifications, ship scalable software, and still count down the days to a comeback. " +
-  "These identities do not diminish one another. They compound. " +
-
-  "\"You do not have to choose,\" she has written. " +
-  "\"Be the professional. Be the fangirl. Be both — and be unapologetic about it.\"";
+  "As he moves through his thirties, Byun Baek-hyun shows no signs of slowing down. " +
+  "Industry insiders speak of forthcoming projects that push further still " +
+  "into uncharted sonic territory, with collaborations spanning genres " +
+  "and continents that would have seemed improbable even a decade ago. " +
+  "With each release, each performance, and each quiet act of kindness " +
+  "documented by those around him, he continues to write the story " +
+  "of a man from Bucheon who dared to sing — and in doing so, " +
+  "moved the world.";
